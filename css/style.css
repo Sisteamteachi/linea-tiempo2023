@@ -1,0 +1,39 @@
+body{
+    background: black;
+}
+
+.esconder{
+    display:none;
+}
+
+.card{
+    width: 30vw;
+    height: 50vh;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    margin-top: 1%;
+}
+
+.avg{
+    background: red;
+}
+
+.og{
+    background: white;
+}
+
+.hotel{
+    background: gray;
+}
+
+.teachs{
+    background: violet;
+}
