@@ -4,11 +4,8 @@ body{
     background: rgb(0, 0, 0);
     color: white;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
-
-
-
-
 .esconder{
     display:none;
 }
@@ -26,8 +23,8 @@ section{
     display: flex;
     justify-content: center;
     align-self: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 .card{
@@ -37,8 +34,11 @@ section{
     border-radius: 25px;
     
 }
-
+.conatiner{
+    /* background: red; */
+}
 .card img{
     width: 100%;
     height: 100%;
 }
+
