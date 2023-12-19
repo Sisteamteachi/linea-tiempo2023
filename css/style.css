@@ -2,15 +2,16 @@
 
 body{
     background: rgb(0, 0, 0);
-    color: white;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    color: white;
 }
 .esconder{
     display:none;
 }
 
 .informacion{
+    
     margin-left: 5%;
     text-transform: uppercase;
 }
@@ -41,4 +42,10 @@ section{
     width: 100%;
     height: 100%;
 }
+
+.body{
+    background: #fff;
+    color:  black;
+}
+
 
