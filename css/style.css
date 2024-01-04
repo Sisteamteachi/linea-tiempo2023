@@ -99,6 +99,7 @@ section img{
 	justify-content: center;
 	scale: 1;
 	transition: background-color, transform .5s linear;
+	overflow: hidden;
 
 }
 .seleccionado{
@@ -106,4 +107,120 @@ section img{
 	background-color: #EA5455;
 	color: #000;
 	font-weight: bold;
+}
+
+@media (max-width: 769px) {
+	section img{
+		margin-top: 30px;
+		max-width: 700px;
+		border-radius: 25px;
+	}
+}
+
+@media (max-width: 540px) {
+	.contenedor-tiempo{
+		position: fixed;
+		top: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
+
+	.contenedor-tiempo .linea{
+		width: 380px;
+		position: absolute;
+		top: 15px;
+		height: 2px;
+		background-color: black;
+		z-index: -2;
+	
+	}
+
+	.fecha{
+		display: inline-block;
+		font-size: 10px;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		color: white;
+		display: flex;	
+	}
+
+	section img{
+		margin-top: 30px;
+		max-width: 420px;
+		border-radius: 25px;
+	}
+}
+
+@media (max-width: 431px) {
+	.contenedor-tiempo{
+		position: fixed;
+		top: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
+
+	.contenedor-tiempo .linea{
+		width: 380px;
+		position: absolute;
+		top: 15px;
+		height: 2px;
+		background-color: black;
+		z-index: -2;
+	
+	}
+
+	.fecha{
+		display: inline-block;
+		font-size: 10px;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		color: white;
+		display: flex;	
+	}
+
+	section img{
+		margin-top: 30px;
+		max-width: 420px;
+		border-radius: 25px;
+	}
+}
+
+@media (max-width: 376px) {
+	.contenedor-tiempo{
+		position: fixed;
+		top: 40px;
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
+
+	.contenedor-tiempo .linea{
+		width: 380px;
+		position: absolute;
+		top: 15px;
+		height: 2px;
+		background-color: black;
+		z-index: -2;
+	
+	}
+
+	.fecha{
+		display: inline-block;
+		font-size: 9px;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		color: white;
+		display: flex;	
+	}
+
+	section img{
+		margin-top: 30px;
+		max-width: 300px;
+		border-radius: 25px;
+	}
 }
