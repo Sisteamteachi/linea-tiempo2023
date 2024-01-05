@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Neucha';
+	font-family: 'Poppins';
 }
 html{
 	scroll-behavior: smooth;
@@ -15,54 +15,41 @@ section{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
 }
 #inicio{
-	background-color: #F6830F;
+	background-color: #ffffff;
 }
 #a1930{
-	background-color: #FCF8E8;
+	background-color: #fbfefb;
 }
 #a1954{
-	background-color: #D4E2D4;
+	background-color: #efe5dc;
 }
 #a1962{
-	background-color: #ECB390;
+	background-color: #f3d8c7;
 }
 #a1970{
-	background-color: #E5DF88;
+	background-color: #d0b8ac;
 }
 #a1978{
-	background-color: #FFE5B9;
+	background-color: #bea8a7;
 }
-#a1986{
-	background-color: #EBD4D4;
-}
-#a1998{
-	background-color: #C9CBFF;
-}
-#a2002{
-	background-color: #A6A9B6;
-}
-#a2006{
-	background-color: #F5F4F4;
-}
-#a2010{
-	background-color: #FCD1D1;
-}
-#a2014{
-	background-color: #ECE2E1;
-}
+
 #inicio h1{
-	font-size: 68px;
-	letter-spacing: 5px;
+	font-size: 7rem;
+	letter-spacing: 60px;
+	font-weight: bolder;
+	
 }
 section h2{
-	font-size: 50px;
-	letter-spacing: 5px;
+	margin-top: 100px;
+	font-size: 4rem;
+	letter-spacing: 20px;
 	text-align: center;
 }
 section img{
-	margin-top: 30px;
+	margin-top: 60px;
 	max-width: 800px;
 	border-radius: 25px;
 }
@@ -86,7 +73,7 @@ section img{
 }
 .fecha{
 	display: inline-block;
-	font-size: 20px;
+	font-size: 15px;
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
@@ -104,7 +91,7 @@ section img{
 }
 .seleccionado{
 	transform: scale(1.2) ;
-	background-color: #EA5455;
+	background-color: #ffffff;
 	color: #000;
 	font-weight: bold;
 }
@@ -222,5 +209,35 @@ section img{
 		margin-top: 30px;
 		max-width: 300px;
 		border-radius: 25px;
+	}
+}
+
+@media (max-width: 321px) {
+	.contenedor-tiempo{
+		position: fixed;
+		top: 40px;
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
+
+	.contenedor-tiempo .linea{
+		width: 380px;
+		position: absolute;
+		top: 15px;
+		height: 2px;
+		background-color: black;
+		z-index: -2;
+	
+	}
+
+	.fecha{
+		display: inline-block;
+		font-size: 8px;
+		width: 30px;
+		height: 3px;
+		border-radius: 50%;
+		color: white;
+		display: flex;	
 	}
 }

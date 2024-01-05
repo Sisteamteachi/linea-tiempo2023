@@ -5,6 +5,7 @@ var secciones = document.getElementsByTagName("section");
 var fechas = document.getElementsByClassName("fecha");
 
 function myFunction(){
+
   if (window.pageYOffset >= secciones[0].offsetTop) {
     eliminarClase();
   }
@@ -39,6 +40,7 @@ function myFunction(){
 }
 
 function eliminarClase(){
+
   for(i=0; i < fechas.length;i++){
       fechas[i].classList.remove("seleccionado");
     }
